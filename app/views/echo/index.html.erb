@@ -1,0 +1,5 @@
+<h1>This website returns your POST parameters back to you!</h1>
+<%= form_tag echo_index_path, method: :post do %>
+    <%= text_field_tag :test, "type something here" %>
+    <%= submit_tag 'Submit' %>
+<% end %>
